@@ -1,0 +1,72 @@
+.newTaskCard{
+    width: 100%;
+    height:150px;
+    border: solid 2px rgb(7, 158, 213);
+    border-radius: 5px;
+    position:relative;
+    padding: 3px;
+    box-shadow: 0 4px 18px 0 gray;
+    margin-bottom: 5px;
+    overflow: hidden;
+    border: 3px blue dotted;
+}
+
+.newTaskCard .header{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.newTaskCard .header .cancel{
+    flex-basis: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.newTaskCard .header .cancel img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.newTaskCard .header .header-desc{
+    flex-basis: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTaskCard .header .submit{
+    flex-basis: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.newTaskCard .header .submit img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.newTaskCard .body{
+    height: 65%;
+}
+
+.newTaskCard .body textarea{
+    height: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: large;
+    font: bold;
+}
